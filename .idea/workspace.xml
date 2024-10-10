@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irene_labs/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Api/PetsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerAndDesOrdStoreApi/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerAndDesUserApi/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerandDesPetsApi/CategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerandDesPetsApi/PetResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerandDesPetsApi/TagResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ExtentReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mgeZDSkQWdTUgnRtzrcZ5sj05X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/irene/IdeaProjects/RestExerciseFinal/src/test/resources/testng.xml.executor": "Run",
+    "TestNG.PetsApi.deletePet.executor": "Run",
+    "TestNG.PetsApi.executor": "Run",
+    "TestNG.PetsApi.getPetById.executor": "Run",
+    "TestNG.PetsApi.getPetsByStatus.executor": "Run",
+    "TestNG.PetsApi.postCreateNewPet.executor": "Run",
+    "TestNG.PetsApi.putUpdatePet.executor": "Run",
+    "TestNG.StoreApi.deleteOrder.executor": "Run",
+    "TestNG.StoreApi.executor": "Run",
+    "TestNG.StoreApi.getOrder.executor": "Run",
+    "TestNG.StoreApi.storeOrder.executor": "Run",
+    "TestNG.UserApi.createUser.executor": "Run",
+    "TestNG.UserApi.deleteUser.executor": "Run",
+    "TestNG.UserApi.executor": "Run",
+    "TestNG.UserApi.getUserName.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="PetsApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestExerciseFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Api" />
+      <option name="MAIN_CLASS_NAME" value="Api.PetsApi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetsApi.getPetById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestExerciseFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Api" />
+      <option name="MAIN_CLASS_NAME" value="Api.PetsApi" />
+      <option name="METHOD_NAME" value="getPetById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetsApi.getPetsByStatus" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestExerciseFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Api" />
+      <option name="MAIN_CLASS_NAME" value="Api.PetsApi" />
+      <option name="METHOD_NAME" value="getPetsByStatus" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestExerciseFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Api" />
+      <option name="MAIN_CLASS_NAME" value="Api.StoreApi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestExerciseFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Api" />
+      <option name="MAIN_CLASS_NAME" value="Api.UserApi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UserApi" />
+        <item itemvalue="TestNG.StoreApi" />
+        <item itemvalue="TestNG.PetsApi" />
+        <item itemvalue="TestNG.PetsApi.getPetById" />
+        <item itemvalue="TestNG.PetsApi.getPetsByStatus" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="" />
+      <created>1727502704677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727502704677</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Api/StoreApi.java</url>
+          <line>44</line>
+          <properties class="Api.StoreApi" method="getOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Api/PetsApi.java</url>
+          <line>54</line>
+          <properties class="Api.PetsApi" method="getPetsByStatus">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Api/StoreApi.java</url>
+          <line>23</line>
+          <properties class="Api.StoreApi" method="storeOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Api/PetsApi.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Api/UserApi.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
