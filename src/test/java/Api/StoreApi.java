@@ -20,7 +20,7 @@ public class StoreApi extends BaseClass {
     ObjectMapper objectMapper = new ObjectMapper();
 
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups = {"regression"})
     public void storeOrder() throws JacksonException {
 
         ExtentReportManager.test = ExtentReportManager.extent.createTest("Store Order Test");
@@ -41,7 +41,7 @@ public class StoreApi extends BaseClass {
 
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, groups = {"regression"})
     public void getOrder() throws JacksonException{
 
         ExtentReportManager.test = ExtentReportManager.extent.createTest("Get Order Test");
@@ -61,7 +61,7 @@ public class StoreApi extends BaseClass {
         ExtentReportManager.test.log(Status.PASS, "Order fetched successfully.");
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3, groups = {"regression"})
     public void deleteOrder() {
 
         ExtentReportManager.test = ExtentReportManager.extent.createTest("Delete Order Test");

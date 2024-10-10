@@ -20,7 +20,7 @@ public class UserApi extends BaseClass {
     ObjectMapper objectMapper = new ObjectMapper();
 
 
-    @Test(priority = 2)
+    @Test(priority = 2, groups = {"regression"})
     public void getUserName() throws JsonProcessingException {
 
 
@@ -45,7 +45,7 @@ public class UserApi extends BaseClass {
 
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups = {"regression"})
     public void createUser() throws JsonProcessingException{
 
         ExtentReportManager.test = ExtentReportManager.extent.createTest("Create User Test");

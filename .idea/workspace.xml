@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irene_labs/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Api/PetsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerAndDesOrdStoreApi/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerAndDesUserApi/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerandDesPetsApi/CategoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerandDesPetsApi/PetResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SerializacionPayloads/SerandDesPetsApi/TagResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ExtentReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/PropertiesReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/touch rest-assured-tests.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Irene011878"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Irene011878/RestExerciseFinal.git",
+    "accountId": "3587b5c4-eac6-486d-9d26-8a98243fb43a"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -56,6 +52,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/irene/IdeaProjects/RestExerciseFinal/src/test/resources/regression.xml.executor": "Run",
     "TestNG.C:/Users/irene/IdeaProjects/RestExerciseFinal/src/test/resources/testng.xml.executor": "Run",
     "TestNG.PetsApi.deletePet.executor": "Run",
     "TestNG.PetsApi.executor": "Run",
