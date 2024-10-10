@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/touch rest-assured-tests.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
