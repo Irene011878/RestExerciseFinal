@@ -23,21 +23,6 @@ public class BaseClass {
         logger.info("ExtentReport setup completed successfully.");
     }
 
-    /*@BeforeTest
-    public void setUpReport() {
-
-        logger.info("Initializing ExtentReport setup...");
-        ExtentReportManager.setUpReport();
-        logger.info("ExtentReport setup completed successfully.");
-    }*/
-
-    /*@AfterTest
-    public void tearDown() {
-
-        logger.info("Flushing ExtentReport...");
-        ExtentReportManager.flushReport();
-        logger.info("ExtentReport flushed successfully.");
-    }*/
 
     @AfterSuite
     public void tearDown() {
