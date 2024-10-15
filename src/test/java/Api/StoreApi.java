@@ -34,13 +34,13 @@ public class StoreApi extends BaseClass {
         RestAssured.baseURI = PropertiesReader.getBaseUri();
         OrderResponse completedOrder = new OrderResponse(8, 4191801, 1, "2024-10-03T23:14:17.279Z", "placed", true);
         String completedOrderJson = objectMapper.writeValueAsString(completedOrder);
-        //System.out.println(completedOrder);
+
 
         logger.debug("Request Payload: " + completedOrderJson);
 
         Response response = given().contentType(ContentType.JSON).body(completedOrderJson)
                 .when().post("/store/order");
-        //System.out.println(response.getBody().asString());
+
         logger.info("Response Body: " + response.getBody().asString());
 
         Assert.assertEquals(response.getStatusCode(), 200);
@@ -69,7 +69,7 @@ public class StoreApi extends BaseClass {
         OrderResponse myOrder =  objectMapper.readValue(response.getBody().asString(), OrderResponse.class);
         Assert.assertEquals(myOrder.getId(), 8);
         Assert.assertEquals(myOrder.getPetId(), 4191801);
-        //System.out.println(myOrder.getStatus());
+
         logger.info("Order fetched successfully.");
 
         ExtentReportManager.test.log(Status.INFO, "Response Body: " + response.getBody().asString());
@@ -88,7 +88,7 @@ public class StoreApi extends BaseClass {
 
         logger.info("Response Status Code: " + response.getStatusCode());
 
-        //System.out.println(response.getStatusCode());
+
 
         Assert.assertEquals(response.getStatusCode(), 200);
         logger.info("Order deleted successfully.");
@@ -106,16 +106,16 @@ public class StoreApi extends BaseClass {
         ExtentReportManager.test = ExtentReportManager.extent.createTest("Get Order Not Found Test");
 
         RestAssured.baseURI = PropertiesReader.getBaseUri();
-        Response response = given().pathParam("orderId", 999999) // ID inexistente
+        Response response = given().pathParam("orderId", 999999)
                 .when().get("/store/order/{orderId}");
 
         logger.warn("Order not found. Response Status Code: " + response.getStatusCode());
 
 
-        Assert.assertEquals(response.getStatusCode(), 404); // Verificar que el código sea 404
+        Assert.assertEquals(response.getStatusCode(), 404);
         logger.info("Correct status code 404 for non-existent order.");
         ExtentReportManager.test.log(Status.PASS, "Correct status code 404 for non-existent order");
-        //System.out.println("Response body: " + response.getBody().asString());
+
         logger.info("Response body: " + response.getBody().asString());
     }
 

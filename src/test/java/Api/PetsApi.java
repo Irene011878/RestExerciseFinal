@@ -71,11 +71,11 @@ public class PetsApi extends BaseClass {
                 .then().statusCode(200).extract().response();
 
 
-        //System.out.println(response.prettyPrint());
+
         logger.debug("Response body: " + response.prettyPrint());
         Assert.assertEquals(response.getStatusCode(), 200);
         Assert.assertEquals(response.getBody().jsonPath().getString("[0].status"), "available");
-        //System.out.println(response.getBody().jsonPath().getString("[0].status"));
+
 
 
         ExtentReportManager.test.log(Status.PASS, "The status code is 200 OK");
@@ -92,7 +92,7 @@ public class PetsApi extends BaseClass {
         ExtentReportManager.test.log(Status.INFO, "Number of filtered pets: " + mascotasFiltradas.size());
         logger.debug("Filtered pets: " + mascotasFiltradas);
 
-        //System.out.println(mascotasFiltradas);
+
 
     }
 

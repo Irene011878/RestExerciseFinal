@@ -47,8 +47,6 @@ public class UserApi extends BaseClass {
         logger.info("User Status: " + userResponse.getUserStatus());
 
 
-        //System.out.println(userResponse.getUserStatus());
-
     }
 
     @Test(priority = 1, groups = {"regression"})
@@ -63,12 +61,12 @@ public class UserApi extends BaseClass {
         String newUserJson = objectMapper.writeValueAsString(newUser);
 
         logger.debug("New User JSON: " + newUserJson);
-        //System.out.println(newUser);
+
         Response response = given().contentType(ContentType.JSON).body(newUserJson)
                 .when().post("/user");
 
         logger.info("Response Body: " + response.getBody().asString());
-        //System.out.println(response.getBody().asString());
+
         Assert.assertEquals(response.getStatusCode(), 200);
 
         ExtentReportManager.test.log(Status.INFO, "Response Body: " + response.getBody().asString());
@@ -86,7 +84,7 @@ public class UserApi extends BaseClass {
         RestAssured.baseURI = PropertiesReader.getBaseUri();
         Response response = given().pathParam("username","Emma01").when().delete("/user/{username}");
 
-        //System.out.println(response.getStatusCode());
+
 
         logger.info("Response Status Code: " + response.getStatusCode());
         Assert.assertEquals(response.getStatusCode(), 200);
@@ -109,10 +107,10 @@ public class UserApi extends BaseClass {
 
         logger.warn("User not found. Response Status Code: " + response.getStatusCode());
 
-        Assert.assertEquals(response.getStatusCode(), 404); // Verificar que el código sea 404
+        Assert.assertEquals(response.getStatusCode(), 404);
 
         ExtentReportManager.test.log(Status.PASS, "Correct status code 404 for deleting non-existent user.");
-        //System.out.println("Response body: " + response.getBody().asString());
+
         logger.info("Response body: " + response.getBody().asString());
     }
 
@@ -130,7 +128,7 @@ public class UserApi extends BaseClass {
         logger.warn("Invalid username format. Response Status Code: " + response.getStatusCode());
         Assert.assertEquals(response.getStatusCode(), 404); // Verificar que el código sea 400
         ExtentReportManager.test.log(Status.PASS, "Correct status code 400 for invalid username format.");
-        //System.out.println("Response body: " + response.getBody().asString());
+
         logger.info("Response body: " + response.getBody().asString());
     }
 }
