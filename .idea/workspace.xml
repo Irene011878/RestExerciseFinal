@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="Changes added">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/smoke.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="Changes added Base class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Api/PetsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/PetsApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/ExtentReportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Runners/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,12 +245,38 @@
       <option name="project" value="LOCAL" />
       <updated>1728614277015</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes added on Oct 14, 2024">
+      <option name="closed" value="true" />
+      <created>1728964299419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728964299419</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes added on Oct 14, 2024">
+      <option name="closed" value="true" />
+      <created>1728964620195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728964620195</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes added Base class">
+      <option name="closed" value="true" />
+      <created>1728964788287</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728964788287</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes added" />
+    <MESSAGE value="Changes added on Oct 14, 2024" />
+    <MESSAGE value="Changes added Base class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes added Base class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,7 +315,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Api/UserApi.java</url>
-          <line>61</line>
+          <line>59</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
