@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="">
+    <list default="true" id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="Changes added">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/smoke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Api/PetsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/PetsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/ExtentReportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Runners/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Irene011878"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Irene011878&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Irene011878/RestExerciseFinal.git",
-    "accountId": "3587b5c4-eac6-486d-9d26-8a98243fb43a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Irene011878/RestExerciseFinal.git&quot;,
+    &quot;accountId&quot;: &quot;3587b5c4-eac6-486d-9d26-8a98243fb43a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -46,24 +57,39 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.RestExerciseFinal [mvn,test...].executor": "Run",
+    "Maven.RestExerciseFinal [test...].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/irene/IdeaProjects/RestExerciseFinal/src/test/resources/Runners/regression.xml.executor": "Run",
+    "TestNG.C:/Users/irene/IdeaProjects/RestExerciseFinal/src/test/resources/Runners/smoke.xml.executor": "Run",
     "TestNG.C:/Users/irene/IdeaProjects/RestExerciseFinal/src/test/resources/regression.xml.executor": "Run",
     "TestNG.C:/Users/irene/IdeaProjects/RestExerciseFinal/src/test/resources/testng.xml.executor": "Run",
     "TestNG.PetsApi.deletePet.executor": "Run",
+    "TestNG.PetsApi.deletePetNotFound.executor": "Run",
     "TestNG.PetsApi.executor": "Run",
     "TestNG.PetsApi.getPetById.executor": "Run",
+    "TestNG.PetsApi.getPetByIdNotFound.executor": "Run",
     "TestNG.PetsApi.getPetsByStatus.executor": "Run",
     "TestNG.PetsApi.postCreateNewPet.executor": "Run",
+    "TestNG.PetsApi.postCreateNewPetInvalidData.executor": "Run",
+    "TestNG.PetsApi.postCreateNewPetWithNegativeIdAndEmptyString.executor": "Run",
     "TestNG.PetsApi.putUpdatePet.executor": "Run",
+    "TestNG.PetsApi.putUpdatePetMissingFields.executor": "Run",
     "TestNG.StoreApi.deleteOrder.executor": "Run",
     "TestNG.StoreApi.executor": "Run",
     "TestNG.StoreApi.getOrder.executor": "Run",
+    "TestNG.StoreApi.getOrderNotFound.executor": "Run",
     "TestNG.StoreApi.storeOrder.executor": "Run",
+    "TestNG.StoreApi.storeOrderInvalidData.executor": "Run",
+    "TestNG.StoreApi.storeOrderInvalidDateFormat.executor": "Run",
     "TestNG.UserApi.createUser.executor": "Run",
+    "TestNG.UserApi.createUserInvalidData.executor": "Run",
     "TestNG.UserApi.deleteUser.executor": "Run",
+    "TestNG.UserApi.deleteUserNotFound.executor": "Run",
     "TestNG.UserApi.executor": "Run",
     "TestNG.UserApi.getUserName.executor": "Run",
+    "TestNG.UserApi.getUserNameInvalidFormat.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -71,7 +97,43 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\irene\IdeaProjects\RestExerciseFinal\src\test\resources\Runners" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="RestExerciseFinal [test...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+                <option value="-Dsurefire.suiteXmlFiles=src/test/resources/testng.xml" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="PetsApi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestExerciseFinal" />
       <extension name="coverage">
@@ -83,42 +145,6 @@
       <option name="PACKAGE_NAME" value="Api" />
       <option name="MAIN_CLASS_NAME" value="Api.PetsApi" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetsApi.getPetById" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestExerciseFinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Api" />
-      <option name="MAIN_CLASS_NAME" value="Api.PetsApi" />
-      <option name="METHOD_NAME" value="getPetById" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetsApi.getPetsByStatus" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestExerciseFinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Api" />
-      <option name="MAIN_CLASS_NAME" value="Api.PetsApi" />
-      <option name="METHOD_NAME" value="getPetsByStatus" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,13 +185,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApi.deleteUserNotFound" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestExerciseFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Api" />
+      <option name="MAIN_CLASS_NAME" value="Api.UserApi" />
+      <option name="METHOD_NAME" value="deleteUserNotFound" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApi.getUserNameInvalidFormat" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestExerciseFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Api" />
+      <option name="MAIN_CLASS_NAME" value="Api.UserApi" />
+      <option name="METHOD_NAME" value="getUserNameInvalidFormat" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.RestExerciseFinal [test...]" />
+      <item itemvalue="TestNG.UserApi.deleteUserNotFound" />
+      <item itemvalue="TestNG.UserApi.getUserNameInvalidFormat" />
+      <item itemvalue="TestNG.PetsApi" />
+      <item itemvalue="TestNG.StoreApi" />
+      <item itemvalue="TestNG.UserApi" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.UserApi" />
         <item itemvalue="TestNG.StoreApi" />
         <item itemvalue="TestNG.PetsApi" />
-        <item itemvalue="TestNG.PetsApi.getPetById" />
-        <item itemvalue="TestNG.PetsApi.getPetsByStatus" />
+        <item itemvalue="TestNG.UserApi.getUserNameInvalidFormat" />
+        <item itemvalue="TestNG.UserApi.deleteUserNotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -178,14 +248,27 @@
       <option name="presentableId" value="Default" />
       <updated>1727502704677</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changes added">
+      <option name="closed" value="true" />
+      <created>1728614277015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728614277015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Api/StoreApi.java</url>
-          <line>44</line>
+          <line>55</line>
           <properties class="Api.StoreApi" method="getOrder">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -194,7 +277,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Api/PetsApi.java</url>
-          <line>54</line>
+          <line>62</line>
           <properties class="Api.PetsApi" method="getPetsByStatus">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -203,7 +286,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Api/StoreApi.java</url>
-          <line>23</line>
+          <line>27</line>
           <properties class="Api.StoreApi" method="storeOrder">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -212,12 +295,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Api/PetsApi.java</url>
-          <line>22</line>
+          <line>24</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Api/UserApi.java</url>
-          <line>54</line>
+          <line>61</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
