@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="Changes added Base class">
+    <list default="true" id="1be4ccfd-4548-4c87-a287-ccd00c6a6ab9" name="Changes" comment="Changes in githubactions">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/SerializationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/createPet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/createUser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/storeOrder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data/updatePet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/regression.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Api/PetsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/PetsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/StoreApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Api/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,12 +93,16 @@
     "TestNG.UserApi.getUserNameInvalidFormat.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/irene/IdeaProjects/RestExerciseFinal/src/test/resources/Data",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irene\IdeaProjects\RestExerciseFinal\src\test\resources\Data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\irene\IdeaProjects\RestExerciseFinal\src\test\resources\Runners" />
     </key>
@@ -157,6 +173,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoreApi.deleteOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestExerciseFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Api" />
+      <option name="MAIN_CLASS_NAME" value="Api.StoreApi" />
+      <option name="METHOD_NAME" value="deleteOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreApi.getOrderNotFound" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestExerciseFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Api" />
+      <option name="MAIN_CLASS_NAME" value="Api.StoreApi" />
+      <option name="METHOD_NAME" value="getOrderNotFound" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserApi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestExerciseFinal" />
       <extension name="coverage">
@@ -174,46 +226,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApi.deleteUserNotFound" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestExerciseFinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Api" />
-      <option name="MAIN_CLASS_NAME" value="Api.UserApi" />
-      <option name="METHOD_NAME" value="deleteUserNotFound" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserApi.getUserNameInvalidFormat" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestExerciseFinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Api" />
-      <option name="MAIN_CLASS_NAME" value="Api.UserApi" />
-      <option name="METHOD_NAME" value="getUserNameInvalidFormat" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Maven.RestExerciseFinal [test...]" />
-      <item itemvalue="TestNG.UserApi.deleteUserNotFound" />
-      <item itemvalue="TestNG.UserApi.getUserNameInvalidFormat" />
+      <item itemvalue="TestNG.StoreApi.deleteOrder" />
+      <item itemvalue="TestNG.StoreApi.getOrderNotFound" />
       <item itemvalue="TestNG.PetsApi" />
       <item itemvalue="TestNG.StoreApi" />
       <item itemvalue="TestNG.UserApi" />
@@ -223,8 +239,8 @@
         <item itemvalue="TestNG.UserApi" />
         <item itemvalue="TestNG.StoreApi" />
         <item itemvalue="TestNG.PetsApi" />
-        <item itemvalue="TestNG.UserApi.getUserNameInvalidFormat" />
-        <item itemvalue="TestNG.UserApi.deleteUserNotFound" />
+        <item itemvalue="TestNG.StoreApi.getOrderNotFound" />
+        <item itemvalue="TestNG.StoreApi.deleteOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -269,21 +285,30 @@
       <option name="project" value="LOCAL" />
       <updated>1728964788287</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes in githubactions">
+      <option name="closed" value="true" />
+      <created>1728965581792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728965581792</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes added" />
     <MESSAGE value="Changes added on Oct 14, 2024" />
     <MESSAGE value="Changes added Base class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes added Base class" />
+    <MESSAGE value="Changes in githubactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in githubactions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Api/StoreApi.java</url>
-          <line>55</line>
+          <line>43</line>
           <properties class="Api.StoreApi" method="getOrder">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -291,32 +316,22 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Api/PetsApi.java</url>
-          <line>62</line>
-          <properties class="Api.PetsApi" method="getPetsByStatus">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Api/StoreApi.java</url>
-          <line>27</line>
+          <line>28</line>
           <properties class="Api.StoreApi" method="storeOrder">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Api/PetsApi.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Api/UserApi.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="7" />
+          <line>34</line>
+          <properties class="Api.UserApi" method="createUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

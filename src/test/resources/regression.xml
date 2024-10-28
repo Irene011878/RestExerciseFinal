@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Regression ">
+    <test name="Testing RestExerciseFinal">
+
+
+        <classes>
+            <class name="Api.PetsApi"/>
+            <class name="Api.StoreApi"/>
+            <class name="Api.UserApi"/>
+
+        </classes>
+
+    </test>
+</suite>

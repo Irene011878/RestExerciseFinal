@@ -1,0 +1,18 @@
+{
+  "id": 4191801,
+  "category": {
+    "id": 600,
+    "name": "Pastor Aleman"
+  },
+  "name": "Oso",
+  "photoUrls": [
+    "PastoresGuardianes.com"
+  ],
+  "tags": [
+    {
+      "id": 900,
+      "name": "Guardian"
+    }
+  ],
+  "status": "available"
+}
